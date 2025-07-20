@@ -1,3 +1,4 @@
+// test/index.test.js
 const rating = require('../index');
 
 describe('Star Rating', () => {

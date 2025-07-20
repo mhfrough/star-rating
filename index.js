@@ -4,6 +4,7 @@
  * @returns {string} Star string (e.g., "★★★⯪☆").
  * @throws {Error} If input is not a number between 0 and 5.
  */
+// index.js
 const rating = n => {
   if (typeof n !== 'number' || isNaN(n) || n < 0 || n > 5)
     throw new Error('Rating must be a number between 0 and 5.');
@@ -15,4 +16,5 @@ const rating = n => {
   return '★'.repeat(fullStars) + (hasHalfStar ? '⯪' : '') + '☆'.repeat(emptyStars);
 };
 
-export default rating;
+module.exports = rating;
+
