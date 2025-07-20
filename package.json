@@ -24,13 +24,13 @@
     "name": "mhfrough"
   },
   "license": "MIT",
-  "homepage": "https://github.com/mhfrough/@mhfrough/star-rating#readme",
+  "homepage": "https://github.com/mhfrough/star-rating#readme",
   "bugs": {
-    "url": "https://github.com/mhfrough/@mhfrough/star-rating/issues"
+    "url": "https://github.com/mhfrough/star-rating/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mhfrough/@mhfrough/star-rating.git"
+    "url": "git+https://github.com/mhfrough/star-rating.git"
   },
   "engines": {
     "node": ">=12.0.0"
