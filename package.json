@@ -1,0 +1,64 @@
+{
+  "name": "@mhfrough/star-rating",
+  "version": "1.0.0",
+  "description": "Tiny, dependency-free function to generate 5-star ratings with optional half-star (★⯪☆) support.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "rating",
+    "stars",
+    "half-star",
+    "unicode",
+    "emoji",
+    "display",
+    "render",
+    "5-star",
+    "frontend",
+    "nodejs",
+    "typescript",
+    "zero-dependencies",
+    "lightweight",
+    "utility"
+  ],
+  "author": {
+    "name": "mhfrough"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mhfrough/@mhfrough/star-rating#readme",
+  "bugs": {
+    "url": "https://github.com/mhfrough/@mhfrough/star-rating/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhfrough/@mhfrough/star-rating.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "echo \"No linting configured\"",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
